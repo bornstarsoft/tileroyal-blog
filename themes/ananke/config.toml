@@ -1,0 +1,10 @@
+
+baseURL = "https://tileroyal-blog.pages.dev/"
+languageCode = "en-us"
+title = "TileRoyal Blog"
+theme = "ananke"
+buildFuture = true
+paginate = 10
+
+[params]
+  mainSections = ["posts"]
