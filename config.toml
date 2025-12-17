@@ -1,10 +1,14 @@
 
-baseURL = "https://tileroyal-blog.pages.dev/"
+baseURL = "https://tileroyal.com/"
 languageCode = "en-us"
-title = "TileRoyal Blog"
+title = "Tile Royal"
 theme = "ananke"
-buildFuture = true
-paginate = 10
+
+enableRobotsTXT = true
+buildFuture = false
+
+[pagination]
+pagerSize = 10
 
 [params]
   mainSections = ["posts"]
